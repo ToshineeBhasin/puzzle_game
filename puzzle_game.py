@@ -3,7 +3,6 @@ from tkinter import *
 import random
 from tkinter import messagebox
 
-# you can add more words as per your requirement
 answer = [
     "python",
     "java",
@@ -24,7 +23,6 @@ word = [
     "odnlon",
 ]
 
-# I have improvised the code by using len(words)
 num =  random.randrange(0, len(word), 1)
 
 def default():
